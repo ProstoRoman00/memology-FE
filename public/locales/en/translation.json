@@ -1,0 +1,17 @@
+{
+  "game": {
+    "static": {
+      "title": "Meme Mania",
+      "task": "Select the best picture of your choice, to describe situation",
+      "vote": "Please, vote for best picture reacting on topic:",
+      "selected": "You have selected",
+      "greetings": "Hello {{userName}}, welcome to the Meme Mania game.",
+      "summary": "Are you far away from your friends, but want to play fun game together? Create or join a room, invite your friends and start playing! "
+    },
+    "situations": {
+      "1": "You opened the fridge, but there are no food inside",
+      "2": "You opened the fridge, but there are no food inside",
+      "3": "You opened the fridge, but there are no food inside"
+    }
+  }
+}

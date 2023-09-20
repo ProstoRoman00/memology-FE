@@ -1,0 +1,1 @@
+const topicsAmount = 3;
