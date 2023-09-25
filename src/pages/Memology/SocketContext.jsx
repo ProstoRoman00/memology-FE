@@ -1,6 +1,9 @@
 import {createContext, useContext, useState} from "react";
 import useWebSocket from "react-use-websocket";
-const GameContext = createContext({data: {}});
+
+
+const SocketContext = createContext({data: {}});
+const useSocket = () => useContext(SocketContext);
 
 const SocketProvider = (props) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -93,10 +96,9 @@ const SocketProvider = (props) => {
         getRoomsList
     };
     return (
-        <GameContext.Provider value={values}>{props.children}</GameContext.Provider>
+        <SocketContext.Provider value={values}>{props.children}</SocketContext.Provider>
     );
 }
-const useSocket = () => useContext(GameContext);
 
 export {
     useSocket,

@@ -1,5 +1,5 @@
 import React from "react";
-import {useSocket} from "../../GameContext";
+import {useSocket} from "../../SocketContext";
 import CardPicker from "../CardPicker/CardPicker";
 import WaitingHolder from "../WaitingHolder/WaitingHolder";
 import VotingPicker from "../VotingPicker/VotingPicker";

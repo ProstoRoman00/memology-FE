@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom';
 import Memology from "./pages/Memology";
 import './i18n';
-import {SocketProvider} from "./pages/Memology/GameContext";
+import {SocketProvider} from "./pages/Memology/SocketContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

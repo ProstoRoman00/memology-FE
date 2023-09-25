@@ -1,4 +1,4 @@
-import {useSocket} from "../../GameContext";
+import {useSocket} from "../../SocketContext";
 import React from "react";
 import UserRow from "../UserRow/UserRow";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {useSocket} from "../../GameContext";
+import {useSocket} from "../../SocketContext";
 import "./styles.scss";
 
 const RoomsList = () => {

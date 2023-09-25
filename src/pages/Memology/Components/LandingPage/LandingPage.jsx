@@ -1,6 +1,6 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
-import {useSocket} from "../../GameContext";
+import {useSocket} from "../../SocketContext";
 import UserRow from "../UserRow/UserRow";
 
 const LandingPage = () => {

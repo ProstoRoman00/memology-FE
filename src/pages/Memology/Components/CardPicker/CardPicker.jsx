@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {useSocket} from "../../GameContext";
+import {useSocket} from "../../SocketContext";
 import {useTranslation} from "react-i18next";
 import ImagesUtil from "../../../../utils/ImagesUtil";
 
